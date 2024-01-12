@@ -5,12 +5,11 @@ set :application, "blog_app"
 set :repo_url, "https://github.com/KeiSuzukiNishi/aws_blog_app.git"
 set :bundle_without, %w{test}.join(':')
 
-set :application, "my_app_name"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :rbenv_version, '3.0.1'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
-
+set :branch, "main"
 # Default deploy_to directory is /var/www/my_app_name
 # set :deploy_to, "/var/www/my_app_name"
 
